@@ -1,0 +1,32 @@
+{
+  "name": "designsync-ai",
+  "version": "1.0.0",
+  "description": "DesignSync AI automates UI validation by comparing frontend implementation with design specifications and highlighting inconsistencies using AI driven insights.",
+  "main": "index.js",
+  "scripts": {
+    "validate": "node src/index.js",
+    "fetch": "node scripts/fetchFigma.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sribalajidev/DesignSync-AI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/sribalajidev/DesignSync-AI/issues"
+  },
+  "homepage": "https://github.com/sribalajidev/DesignSync-AI#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.4.1",
+    "inquirer": "^8.2.7",
+    "minimist": "^1.2.8",
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0",
+    "puppeteer": "^24.40.0"
+  }
+}
