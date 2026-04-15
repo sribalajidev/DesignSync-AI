@@ -18,7 +18,8 @@ Clone the repository & Install dependencies
 
 Create a .env file in the root:
 
-FIGMA_TOKEN=your_figma_token GEMINI_API_KEY=your_gemini_api_key
+FIGMA_TOKEN=your_figma_token 
+GEMINI_API_KEY=your_gemini_api_key
 
 ## Usage
 
