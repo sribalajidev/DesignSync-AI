@@ -48,7 +48,7 @@ AI UI Audit:
 (Overall Summary)
 
 ## Project Structure
-
+```text
 src/
 ├── core/
 │   └── validator.js
@@ -62,7 +62,7 @@ src/
 ├── cli/
 │   └── interactive.js
 ├── index.js
-
+```
 ## Notes
 
 -   Figma API has rate limits (use local file fallback if needed)
