@@ -1,7 +1,7 @@
 {
-  "name": "designsync-ai",
+  "name": "designlens-ai",
   "version": "1.0.0",
-  "description": "DesignSync AI automates UI validation by comparing frontend implementation with design specifications and highlighting inconsistencies using AI driven insights.",
+  "description": "DesignLens AI automates UI validation by comparing frontend implementation with design specifications and highlighting inconsistencies using AI driven insights.",
   "author": "www.sribalajidev.com",
   "main": "index.js",
   "keywords": [],
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sribalajidev/DesignSync-AI.git"
+    "url": "git+https://github.com/sribalajidev/DesignLens-AI.git"
   },
   "bugs": {
-    "url": "https://github.com/sribalajidev/DesignSync-AI/issues"
+    "url": "https://github.com/sribalajidev/DesignLens-AI/issues"
   },
-  "homepage": "https://github.com/sribalajidev/DesignSync-AI#readme",
+  "homepage": "https://github.com/sribalajidev/DesignLens-AI#readme",
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "dotenv": "^17.4.1",
