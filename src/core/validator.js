@@ -11,8 +11,13 @@ async function validateUI({ figmaUrl, figmaFilePath, pageUrl, token, device, ena
   try {
     console.log('Starting validation process...');
 
-    // Validate inputs
+    // Ensure temp directory exists
+    const tempDir = "temp";
+    if (!fs.existsSync(tempDir)) {
+      fs.mkdirSync(tempDir);
+    }
 
+    // Validate inputs
     let figmaPath;
     // Case 1: Figma URL
     if (figmaUrl) {

@@ -1,5 +1,5 @@
-# DesignLens-AI
-DesignLens AI is a CLI tool that automates UI validation by comparing frontend implementation with design specifications and highlighting inconsistencies using AI-driven insights.
+# UIRay-AI
+UIRay AI is a CLI tool for validating UI by comparing frontend implementation with design specifications and highlighting inconsistencies using AI-driven insights.
 
 ## Features
 
@@ -14,12 +14,14 @@ DesignLens AI is a CLI tool that automates UI validation by comparing frontend i
 
 Run using npx:
 
-`npx designlens ui`
+`npx uiray run`
 
 Or install globally:
 
-`npm install -g designlens-ai`
-`designlens ui`
+```text
+npm install -g uiray-ai
+uiray run
+```
 
 ## Environment Setup
 
