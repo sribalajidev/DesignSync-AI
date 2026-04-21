@@ -68,6 +68,10 @@ Diff Image: temp/diff.png
 AI UI Audit:
 (Overall Summary)
 
+## Demo
+
+![UIRay Demo](./assets/demo.gif)
+
 ## Project Structure
 ```text
 src/
