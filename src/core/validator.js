@@ -33,7 +33,7 @@ async function validateUI({ figmaUrl, figmaFilePath, pageUrl, token, device, vie
         nodeId,
         token,
       });
-      console.log("Figma image URL:", figmaImageUrl);
+      // console.log("Figma image URL:", figmaImageUrl);
 
       // 3. Download Figma image
       figmaPath = "temp/figma.png";
@@ -62,7 +62,7 @@ async function validateUI({ figmaUrl, figmaFilePath, pageUrl, token, device, vie
       fs.copyFileSync(cleanPath, tempFigmaPath);
 
       figmaPath = tempFigmaPath;
-      console.log("Using file:", figmaPath);
+      // console.log("Using file:", figmaPath);
     }
 
     // No input
